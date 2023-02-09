@@ -1,0 +1,98 @@
+#
+# From 1.16 version you can also use HEX colors.
+# Instead of &f format use <#ffffff>
+#
+lang:
+  auto-claim-notification:
+  - ' '
+  - '&a ✔ &f Recompensa(s) %rewards% se ha reclamado automáticamente con éxito!'
+  - ' '
+  reward-reset: '&e[&6&lDailyRewards&e] &fHas restablecido &e%type% &frecompensa para el jugador &e%player%'
+  unavailable-player: '&c[&4&lDailyRewards&c] Jugador &n%player%&c no esta disponible'
+  reward-disabled: '&c[&4&lDailyRewards&c] No se puede obtener la recompensa!'
+  permission-msg: '&c[&4&lDailyRewards&c] No puedes usar este comando'
+  rewards-are-not-set: '&c[&4&lDailyRewards&c] Recompensas no establecidas'
+  reload-msg: '&e[&6&lDailyRewards&e] &fEl plugin ha sido recargado con éxito'
+  invalid-arguments: '&c[&4&lDailyRewards&c] Usa /reward para ver la lista de los comandos disponibles'
+  incomplete-reward-reset: '&c[&4&lDailyRewards&c] Especifica lo que quieres reiniciar específicamente (daily/weekly/monthly/all)'
+  full-inventory-message: '&c[&4&lDailyRewards&c] No puedes obtener la(s) recompensa(s), tu inventario está lleno!'
+  command-usage: '&c[&4&lDailyRewards&c] Uso válido: %usage%'
+  help:
+  - '&e[&6&lDailyRewards&e] &fLista con todos los comandos disponibles:'
+  - '&f/rewards &7- Menú principal'
+  - '&f/reward &7- Obtener recompensa diaria'
+  - '&f/reward weekly &7- Obtener recompensa semanal'
+  - '&f/reward month &7- Obtener recompensa mensual'
+  - '&f/reward reset <player> <daily|weekly|monthly|all>'
+  - '&f/reward reload &7- Recargar la sección de configuración'
+  menu-title: Recompensas
+  join-hover-message: '&7Click para recoger tus recompensas'
+  join-notification:
+  - ' '
+  - '&2 - &a%rewards% las recompensas te están esperando! &f(Click aquí)'
+  - ' '
+  cooldown-message: '&c[&4&lDailyRewards&c] Para la recompensa &l%type%&c tienes que esperar &n%time%'
+  daily-title: '&a&lRecompensas'
+  daily-subtitle: '&7Has recogido tu recompensa &adiaria&7'
+  daily-collected: '&a%player% &7ha recogido su &a&lrecompensa diaria!'
+  daily-premium-collected: '&a%player% &7ha recogido su &a&lrecompensa diaria premium!'
+  daily-displayname-available: '&a&lRECOMPENSA DIARIA'
+  daily-available-lore:
+  - '&7La recompensa contiene:'
+  - '&a 8x &fLingotes de hierro'
+  - ' '
+  - '&c❌ Recompensa premium no disponible'
+  daily-available-premium-lore:
+  - '&7La recompensa contiene:'
+  - '&a 16x &fLingotes de hierro'
+  - '&a  3x &fLingotes de oro'
+  - ' '
+  - '&e✔ Recompensa premium disponible'
+  daily-displayname-unavailable: '&c&lRECOMPENSA DIARIA'
+  daily-unavailable-lore:
+  - ' '
+  - '&cDisponible en: %cooldown%'
+  weekly-title: '&e&lRecompensas'
+  weekly-subtitle: '&7Has recogido tu &erecompensa semanal&7'
+  weekly-collected: '&e%player% &7ha recogido su &e&recompensa semanal!'
+  weekly-premium-collected: '&e%player% &7ha recogido su &e&recompensa semanal premium!'
+  weekly-displayname-available: '&a&lRECOMPENSA SEMANAL'
+  weekly-available-lore:
+  - '&7La recompensa contiene:'
+  - '&a 1x &fDiamante'
+  - ' '
+  - '&c❌ Recompensa premium no disponible'
+  weekly-available-premium-lore:
+  - '&7La recompensa contiene:'
+  - '&a 5x &fDiamantes'
+  - '&a 3x &fEsmeraldas'
+  - ' '
+  - '&e✔ Recompensa premium disponible'
+  weekly-displayname-unavailable: '&c&lRECOMPENSA SEMANAL'
+  weekly-unavailable-lore:
+  - ' '
+  - '&cDisponible en: %cooldown%'
+  monthly-title: '&9&lRecompensas'
+  monthly-subtitle: '&7Has recogido tu &9recompensa mensual &7'
+  monthly-collected: '&9%player% &7ha recogido su &9&recompensa mensual!'
+  monthly-premium-collected: '&9%player% &7ha recogido su &9&recompensa mensual premium!'
+  monthly-displayname-available: '&a&lRECOMPENSA MENSUAL'
+  monthly-available-lore:
+  - '&7La recompensa contiene:'
+  - '&a 8x &fDiamantes'
+  - '&a 32x &fLingotes de hierro'
+  - '&a 16x &fLingotes de oro'
+  - ' '
+  - '&c❌ Recompensa premium no disponible'
+  monthly-available-premium-lore:
+  - '&7La recompensa contiene:'
+  - '&a  1x &fEstrella del nether'
+  - '&a 16x &fDiamante'
+  - '&a 64x &fLingote de hierro'
+  - '&a 32x &fLingote de oro'
+  - ' '
+  - '&e✔ Recompensa premium disponible'
+  monthly-displayname-unavailable: '&c&lRECOMPENSA MENSUAL'
+  monthly-unavailable-lore:
+  - ' '
+  - '&cDisponible en: %cooldown%'
